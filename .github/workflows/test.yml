@@ -9,8 +9,9 @@ jobs:
   exec-job:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
         with:
+          clean: false
           lfs: true    
       - run: echo Hello actions
       - run: ./exec.bat
