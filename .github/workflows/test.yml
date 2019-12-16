@@ -13,7 +13,6 @@ jobs:
         with:
           clean: false
           lfs: true
-          submodules: true
       - run: echo Hello actions
       - run: ./exec.bat
       - run: echo $env:GITHUB_WORKSPACE
