@@ -9,7 +9,7 @@ jobs:
   exec-job:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
         with:
           lfs: true    
       - run: echo Hello actions
